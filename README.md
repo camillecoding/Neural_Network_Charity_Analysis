@@ -13,12 +13,12 @@ The client wants to create a more effective method of evaluating grant applicati
 * The variables I removed from my input data were 'NAME' and 'EIN'. These had to be removed because they were categorical variables unrelated to my model's performance - they also were defining characteristics that could introduce bias. Removing them allows my model to be anonymous.
 
 ### Compiling, Training, and Evaluating the Model ###
-* I built my model using 6 neurons and 6 layers. My input function was Tanh and the output was Sigmoid.
+* I built my model using 6 neurons and 6 layers. I used two activation functions, ReLu and Tanh and my output was Sigmoid.
 
 * I did not achieve my target model performance. After removing the testing variable and building my model, my first set of results only produced a 72.5% accuracy rate, slightly less than my goal of 75%.
-<img width="702" alt="Screen Shot 2022-04-23 at 11 15 24 AM" src="https://user-images.githubusercontent.com/95657458/164912165-fb73bc03-929b-463f-98e3-1b9a58aa6972.png">
+<img width="690" alt="Screen Shot 2022-04-23 at 11 30 01 AM" src="https://user-images.githubusercontent.com/95657458/164912705-8afb0119-065b-4ed8-af88-9b8f3872c3cd.png">
 
-*
+* I tested several combinations of neurons, layers, and activation functions to achieve my performance. After starting with too few neuron/layer combinations and achieving ~50% accuracy, I increased these to 6 each. I also tested different combinations of activation functions. Although using ReLu for both activation functions in my input layer achieved the same results as the combination of ReLu and Tanh, I decided to stick with two separate activation functions in the end.
 
  
 
