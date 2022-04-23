@@ -21,5 +21,9 @@ The client wants to create a more effective method of evaluating grant applicati
 * I tested several combinations of neurons, layers, and activation functions to achieve my performance. After starting with too few neuron/layer combinations and achieving ~50% accuracy, I increased these to 6 each. I also tested different combinations of activation functions. Although using ReLu for both activation functions in my input layer achieved the same results as the combination of ReLu and Tanh, I decided to stick with two separate activation functions in the end.
 <img width="672" alt="Screen Shot 2022-04-23 at 11 34 06 AM" src="https://user-images.githubusercontent.com/95657458/164912821-053b0183-1fc9-4029-a630-f9ae0affb1d8.png">
 
+I tried an optimizing my parameters to discover whether I could achieve my target performance. I created a model that tested several parameters to find the highest performers. Even with optimized parameters, I still only achieved 73% accuracy. 
+<img width="465" alt="Screen Shot 2022-04-23 at 12 43 27 PM" src="https://user-images.githubusercontent.com/95657458/164915335-cad902cb-b2dd-4adb-b1a8-6f55dd0392b6.png">
+<img width="723" alt="Screen Shot 2022-04-23 at 12 43 41 PM" src="https://user-images.githubusercontent.com/95657458/164915361-07489708-5afc-4e64-a630-ee41e6c540cf.png">
+
  
 ## Summary ##
