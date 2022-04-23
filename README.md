@@ -27,4 +27,6 @@ I tried an optimizing my parameters to discover whether I could achieve my targe
 
  
 ## Summary ##
-My machine learning model was able to achieve ~73% accuracy. With ~.6% lost data while running the model, even improving the data loss will not bring my test above 75%. With that said, I did discover that the optimized model will use Tanh activation layers, 3 initial units, and 2 layers. This is what I would recommend to use on future models. To improve the overall performance, I would recommend that my client continue to collect grantee performance data to add to future machine learning models. Since my optimizer tested hundreds of combinations of these parameters, I am confident that my suggestions would improve performance.
+My machine learning model was able to achieve ~73% accuracy. With ~.6% lost data while running the model, even improving the data loss will not bring my test above 75%. With that said, I did discover that the optimized model will use Tanh activation layers, 3 initial units, and 2 layers. This is what I would recommend to use on future models. 
+
+To improve the overall performance, I would recommend that my client continue to collect grantee performance data to add to future machine learning models. Since my optimizer tested hundreds of combinations of these parameters, I am confident that my suggestions would improve performance.
