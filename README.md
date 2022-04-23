@@ -19,7 +19,7 @@ The client wants to create a more effective method of evaluating grant applicati
 <img width="690" alt="Screen Shot 2022-04-23 at 11 30 01 AM" src="https://user-images.githubusercontent.com/95657458/164912705-8afb0119-065b-4ed8-af88-9b8f3872c3cd.png">
 
 * I tested several combinations of neurons, layers, and activation functions to achieve my performance. After starting with too few neuron/layer combinations and achieving ~50% accuracy, I increased these to 6 each. I also tested different combinations of activation functions. Although using ReLu for both activation functions in my input layer achieved the same results as the combination of ReLu and Tanh, I decided to stick with two separate activation functions in the end.
+<img width="672" alt="Screen Shot 2022-04-23 at 11 34 06 AM" src="https://user-images.githubusercontent.com/95657458/164912821-053b0183-1fc9-4029-a630-f9ae0affb1d8.png">
 
  
-
 ## Summary ##
